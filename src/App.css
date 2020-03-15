@@ -21,6 +21,7 @@ a {
   border-right: 1px solid rgba(152, 152, 152, 0.1);
   background-color: rgba(253, 254, 253);
   text-align: center;
+  z-index: 1000;
 }
 
 .logo {
@@ -90,3 +91,96 @@ a {
 
 
 /* Projects styling */
+.Section {
+  min-height: 550px;
+  width: auto;
+  margin-left: 250px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 25px;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: 500;
+  color: #707070;
+}
+.card {
+  display: inline-block;
+  height: 500px;
+  width: 350px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.card p {
+  color: #FFF;
+}
+
+.card .hover {
+  opacity: 0;
+}
+
+.card:hover .default {
+  opacity: 0;
+  transition: 1s;
+}
+
+.card:hover .hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+/* The fast way */
+.make-it-fast {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+/* Pre-render the bigger shadow, but hide it */
+.make-it-fast::after {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+
+/* Transition to showing the bigger shadow on hover */
+.make-it-fast:hover::after {
+  opacity: 1;
+}
+
+/* Scale up the box */
+.card:hover {
+  transform: scale(1.05, 1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3)
+}
+
+/* Fade in the pseudo-element with the bigger shadow */
+.card:hover::after {
+  opacity: 1;
+}
+
+.workLogo {
+  width: 90px;
+  margin-top: 170px;
+}
+
+
+
+/* Music Section */
+.musicCard {
+  display: inline-block;
+  width: 125px;
+  height: 125px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.musicArtwork {
+  width: 125px;
+  height: 125px;
+}
