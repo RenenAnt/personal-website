@@ -1,23 +1,29 @@
 [
   {
     "name": "Collegion",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "logo": "collegion.svg",
     "background": "linear-gradient(to right, #78a0fa, #4b7ddc)",
-    "link": false
+    "link": "https://collegion.app",
+    "jobTitle": "Co-founder / Front end developer",
+    "jobDescription": "Working on providing college students with an easy way to communicate with fellow students, club members, and more. Create or work with designers to create user-friendly interfaces and graphics. Implementing designs using react-native.",
+    "jobDate": "Nov 2019 - Present"
   },
   {
     "name": "ResellAnalytics",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "logo": "swiped.svg",
+    "logo": "resellanalytics.svg",
     "background": "linear-gradient(to right, #3566ed, #3566ed)",
-    "link": false
+    "link": "https://resellanalytics.io",
+    "jobTitle": "Front end developer",
+    "jobDescription": "Web app made to easily manage sneaker and clothing inventory, log recent sales, and check analytical data on past sales and spending habits. With a feature that web scrapes popular platforms such as Stockx and Goat to display accurate data on products.",
+    "jobDate": "Nov 2019 - Present"
   },
   {
     "name": "Swipedio",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "logo": "swiped.svg",
     "background": "linear-gradient(to right, #FDBE51, #F16A86)",
-    "link": false
+    "link": "https://www.swiped.io",
+    "jobTitle": "Co-founder",
+    "jobDescription": "Provide a quick and convenient mobile solution for automating the process of checking out on high traffic websites. Developed the application’s backend in Swift, mainly working with networking and handling HTTPS requests and browser views. Developed and implemented an analytics system for tracking user activity, sending the data to a RESTful API.",
+    "jobDate": "June 2018 - January 2020"
   }
 ]

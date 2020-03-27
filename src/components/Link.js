@@ -7,7 +7,7 @@ import React, {
 class Link extends Component {
   render() {
     return (
-      <div style={this.props.style} className={"link-container"}>
+      <div style={this.props.style} className="link-container">
         <a href={this.props.link}>
           <i className = {this.props.icon}></i>
           {this.props.text}

@@ -12,8 +12,7 @@ a {
   color: #707070;
 }
 
-/* Nav Sidebar styling + contents of it */
-.Nav {
+.nav {
   position: fixed;
   left: 0;
   width: 250px;
@@ -44,7 +43,7 @@ a {
 }
 
 .divider {
-  margin-top: -15px;
+  margin-top: -10px;
   width: 200px;
   border-width: 0.5px;
   border-color: rgba(152, 152, 152, 0.3);
@@ -90,12 +89,12 @@ a {
 }
 
 
-/* Projects styling */
-.Section {
-  min-height: 550px;
+.section {
+  height: auto;
   width: auto;
   margin-left: 250px;
-  padding-top: 50px;
+  margin-top: 5px;
+  padding-top: 25px;
   padding-left: 50px;
   padding-bottom: 25px;
 }
@@ -105,6 +104,15 @@ a {
   font-weight: 500;
   color: #707070;
 }
+
+
+.section-subtitle {
+  margin-top: -25px;
+  margin-bottom: 25px;
+  color: #707070;
+}
+
+/*  */
 .card {
   display: inline-block;
   height: 500px;
@@ -114,10 +122,6 @@ a {
   text-align: center;
   box-shadow: 0 1px 2px rgba(0,0,0,0.15);
   transition: all 0.3s ease-in-out;
-}
-
-.card p {
-  color: #FFF;
 }
 
 .card .hover {
@@ -164,23 +168,41 @@ a {
 }
 
 .workLogo {
+  height: 90px;
   width: 90px;
   margin-top: 170px;
 }
 
 
-
-/* Music Section */
-.musicCard {
-  display: inline-block;
-  width: 125px;
-  height: 125px;
-  margin-right: 50px;
-  margin-bottom: 50px;
-  cursor: pointer;
+.hover {
+  position: absolute;
+  top: 0;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 100%;
 }
 
-.musicArtwork {
-  width: 125px;
-  height: 125px;
+.job-title {
+  color: #FFF;
+  font-size: 15px;
+}
+
+.job-date {
+  margin-top: -25px;
+  color: #FFF;
+  font-size: 12px;
+}
+
+.job-description {
+  color: #EEE;
+  font-size: 15px;
+}
+
+.job-link {
+  left: 0;
+  right: 0;
+  position: absolute;
+  color: #FFF;
+  font-size: 15px;
+  bottom: 25px;
 }

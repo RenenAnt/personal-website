@@ -6,15 +6,18 @@ import React, {
 
 class Card extends Component {
   render() {
-    console.log(this.props.style)
     return (
-      <div style={this.props.style} className={"card"}>
-        <div className={"default"}>
-          <img className={"workLogo"} src={this.props.image}/>
+      <div style={this.props.style} className="card">
+
+        <div className="default">
+          <img className="workLogo" src={this.props.image}/>
         </div>
 
-        <div className={"hover"}>
-          <p>test</p>
+        <div className="hover">
+          <h5 className="job-title">{this.props.jobTitle}</h5>
+          <p className="job-date">{this.props.jobDate}</p>
+          <p className="job-description">{this.props.jobDescription}</p>
+          <a className="job-link" href={this.props.jobLink}>Link to company.</a>
         </div>
 
       </div>
