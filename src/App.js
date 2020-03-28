@@ -17,7 +17,7 @@ class App extends Component {
     for (var i in workProjects) {
       let project = workProjects[i];
       let logo = require(`./images/${project.logo}`);
-      cards.push({image: logo, name: project.name, background: project.background, jobTitle: project.jobTitle, jobDescription: project.jobDescription, jobDate: project.jobDate, jobLink: project.link});
+      cards.push({id: project.id, image: logo, name: project.name, background: project.background, jobTitle: project.jobTitle, jobDescription: project.jobDescription, jobDate: project.jobDate, jobLink: project.link});
     }
     this.setState({workProjects: cards});
   }
@@ -58,7 +58,7 @@ class App extends Component {
           <p className="section-subtitle">Hover over cards for more details.</p>
           <div className="card-container">
             {this.state.workProjects.map(project => (
-              <Card style={{background: project.background}} image={project.image} name={project.name} jobTitle={project.jobTitle} jobDate={project.jobDate} jobDescription={project.jobDescription} jobLink={project.jobLink} />
+              <Card style={{background: project.background}} key={project.id} image={project.image} name={project.name} jobTitle={project.jobTitle} jobDate={project.jobDate} jobDescription={project.jobDescription} jobLink={project.jobLink} />
             ))}
           </div>
         </div>

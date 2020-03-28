@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "name": "Collegion",
     "logo": "collegion.svg",
     "background": "linear-gradient(to right, #78a0fa, #4b7ddc)",
@@ -9,6 +10,7 @@
     "jobDate": "Nov 2019 - Present"
   },
   {
+    "id": 1,
     "name": "ResellAnalytics",
     "logo": "resellanalytics.svg",
     "background": "linear-gradient(to right, #3566ed, #3566ed)",
@@ -18,6 +20,7 @@
     "jobDate": "Nov 2019 - Present"
   },
   {
+    "id": 2,
     "name": "Swipedio",
     "logo": "swiped.svg",
     "background": "linear-gradient(to right, #FDBE51, #F16A86)",
