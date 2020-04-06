@@ -1,10 +1,6 @@
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App {
+  background-color: #ffffff;
+  padding-bottom: 25px;
 }
 
 a {
@@ -12,15 +8,28 @@ a {
   color: #707070;
 }
 
+/* Nav */
 .nav {
   position: fixed;
   left: 0;
   width: 250px;
   height: 100%;
   border-right: 1px solid rgba(152, 152, 152, 0.1);
-  background-color: rgba(253, 254, 253);
+  background-color: #f7f8fa;
   text-align: center;
-  /* z-index: 1000; */
+  z-index: 1000;
+}
+
+.mobile-nav {
+  display: none;
+  position: absolute;
+  top: 0;
+  height: 350px;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-bottom: 1px solid rgba(152, 152, 152, 0.1);
+  background-color: #f7f8fa;
 }
 
 .logo {
@@ -31,7 +40,7 @@ a {
 .name {
   margin-top: 0px;
   font-size: 20px;
-  color: #707070;
+  color: #25292e;
   font-weight: 700;
 }
 
@@ -49,46 +58,7 @@ a {
   border-color: rgba(152, 152, 152, 0.3);
 }
 
-.link-container {
-  margin: 0 auto;
-  width: 200px;
-  margin-top: 10px;
-  text-align: left;
-  font-size: 15px;
-}
-
-.link-container i {
-  margin-right: 5px;
-}
-
-.fa-twitter {
-  color: #1DA1F2;
-}
-
-.fa-linkedin-in {
-  color: #2867B2;
-}
-
-.button-container {
-  margin: 0 auto;
-  width: 200px;
-  margin-top: 25px;
-  text-align: left;
-  font-size: 15px;
-}
-
-.button {
-  height: 40px;
-  width: 100%;
-  border-radius: 5px;
-  background-color: #F5F7F3;
-  border: 1px solid #CDCFD1;
-  font-size: 15px;
-  outline: none;
-  cursor: pointer;
-}
-
-
+/* Sections */
 .section {
   height: auto;
   width: auto;
@@ -96,15 +66,15 @@ a {
   margin-top: 5px;
   padding-top: 25px;
   padding-left: 50px;
-  padding-bottom: 25px;
+  padding-right: 25px;
+  /* padding-bottom: 25px; */
 }
 
 .section-title {
   font-size: 30px;
   font-weight: 500;
-  color: #707070;
+  color: #25292e;
 }
-
 
 .section-subtitle {
   margin-top: -25px;
@@ -112,102 +82,27 @@ a {
   color: #707070;
 }
 
-/*  */
-.card {
-  position: relative;
-  display: inline-block;
-  height: 500px;
-  width: 350px;
-  margin-right: 50px;
-  margin-bottom: 50px;
-  text-align: center;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-  transition: all 0.3s ease-in-out;
-}
+/* Mobile */
+@media only screen and (max-width: 700px) {
+  .nav {
+    display: none;
+  }
 
-.card .hover {
-  opacity: 0;
-  top: 0;
-  height: 500px;
-  position: absolute;
-  padding-left: 25px;
-  padding-right: 25px;
-}
+  .mobile-nav {
+    display: block;
+  }
 
+  .logo {
+    margin-top: 25px;
+  }
 
-.card:hover .default {
-  opacity: 0;
-  transition: 1s;
-}
+  .section {
+    margin-left: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 
-.card:hover .hover {
-  opacity: 1;
-  transition: 1s;
-}
-
-/* The fast way */
-.make-it-fast {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-}
-
-/* Pre-render the bigger shadow, but hide it */
-.make-it-fast::after {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-
-/* Transition to showing the bigger shadow on hover */
-.make-it-fast:hover::after {
-  opacity: 1;
-}
-
-/* Scale up the box */
-.card:hover {
-  transform: scale(1.05, 1.05);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3)
-}
-
-/* Fade in the pseudo-element with the bigger shadow */
-.card:hover::after {
-  opacity: 1;
-}
-
-.workLogo {
-  height: 90px;
-  width: 90px;
-  margin-top: 170px;
-}
-
-
-.job-title {
-  color: #FFF;
-  font-size: 15px;
-}
-
-.job-date {
-  margin-top: -25px;
-  color: #FFF;
-  font-size: 12px;
-}
-
-.job-description {
-  color: #EEE;
-  font-size: 15px;
-}
-
-.job-link {
-  left: 0;
-  right: 0;
-  position: absolute;
-  color: #FFF;
-  font-size: 15px;
-  bottom: 25px;
-}
-
-@media only screen and (max-width: 1100px) {
-  .card-container {
-  text-align: center;
+  .first-section {
+    margin-top: 350px;
   }
 }

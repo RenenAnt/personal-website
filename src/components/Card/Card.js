@@ -1,4 +1,4 @@
-import '../App.css';
+import './Card.css';
 
 import React, {
   Component

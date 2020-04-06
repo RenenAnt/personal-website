@@ -1,0 +1,26 @@
+.button {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #FFF;
+  border: 1px solid #CDCFD1;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+  color: #25292e;
+}
+
+.button-container {
+  margin: 0 auto;
+  width: 200px;
+  margin-top: 25px;
+  text-align: left;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+  .button-container {
+    margin: 0px;
+    margin-top: 20px;
+  }
+}

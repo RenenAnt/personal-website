@@ -1,0 +1,25 @@
+.link-container {
+  margin: 0 auto;
+  width: 200px;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 15px;
+}
+.link-container i {
+  margin-right: 5px;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
+
+.fa-linkedin-in {
+  color: #2867B2;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .link-container {
+    margin: 0px;
+  }
+}

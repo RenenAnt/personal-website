@@ -1,0 +1,89 @@
+.card {
+  position: relative;
+  display: inline-block;
+  height: 450px;
+  width: 300px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.card .hover {
+  opacity: 0;
+  top: 0;
+  height: 500px;
+  position: absolute;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.card:hover .default {
+  opacity: 0;
+  transition: 1s;
+}
+
+.card:hover .hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+/* The fast way */
+.make-it-fast {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+/* Pre-render the bigger shadow, but hide it */
+.make-it-fast::after {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Transition to showing the bigger shadow on hover */
+.make-it-fast:hover::after {
+  opacity: 1;
+}
+
+/* Scale up the box */
+.card:hover {
+  transform: scale(1.05, 1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3)
+}
+
+/* Fade in the pseudo-element with the bigger shadow */
+.card:hover::after {
+  opacity: 1;
+}
+
+.workLogo {
+  height: 90px;
+  width: 90px;
+  margin-top: 170px;
+}
+
+.job-title {
+  color: #FFF;
+  font-size: 15px;
+}
+
+.job-date {
+  margin-top: -25px;
+  color: #FFF;
+  font-size: 12px;
+}
+
+.job-description {
+  color: #EEE;
+  font-size: 15px;
+}
+
+.job-link {
+  left: 0;
+  right: 0;
+  position: absolute;
+  color: #FFF;
+  font-size: 15px;
+  bottom: 100px;
+}

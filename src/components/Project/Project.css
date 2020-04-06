@@ -1,0 +1,19 @@
+.project-container {
+  padding: 0;
+  margin-top: -10px;
+}
+
+.project {
+  list-style-type: none;
+}
+
+.project-description {
+  margin-top: 5px;
+  color: #707070;
+  font-size: 14px;
+}
+
+.project-link {
+  color: #1DA1F2;
+  text-decoration: underline;
+}

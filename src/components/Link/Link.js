@@ -1,4 +1,4 @@
-import '../App.css';
+import './Link.css';
 
 import React, {
   Component
