@@ -53,7 +53,6 @@ class App extends Component {
             <img className="logo" src={logo} />
             <h2 className="name">Roberto Infante</h2>
             <p className="title">developer</p>
-            <hr className="divider" />
           </div>
           <div className="links-container">
             <Link style={{ marginTop: 20 }} icon="fas fa-location-arrow" text="London, ON, Canada" link="#" />
@@ -78,13 +77,13 @@ class App extends Component {
             <Link icon="fab fa-twitter" text="@liluzi" link={"https://twitter.com/liluzi"} />
             <Link icon="fab fa-linkedin-in" text="Roberto Infante" link="https://www.linkedin.com/in/roberto-infante-bb4b56172/" />
             <div className="buttons-container">
-              <Button text="Contact" onclick={function() { window.location.href = 'mailto:contact@robertoinfante.com' }} />
+              <Button text="Contact" onclick={function() { window.location.href = 'mailto:roberto@collegion.app' }} />
             </div>
           </div>
         </div>
 
         <div className="section first-section">
-          <h2 className="section-title">Work Experience</h2>
+          <h2 className="section-title">Work</h2>
           <p className="section-subtitle">Hover over cards for more details.</p>
           <div className="card-container">
             {this.state.workProjects.map(project => (

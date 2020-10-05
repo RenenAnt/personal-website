@@ -1,22 +1,22 @@
 [
   {
     "id": 0,
+    "name": "Heed Technologies (Cannria Holdings)",
+    "logo": "heed.png",
+    "background": "linear-gradient(to right, #E17E76, #E3BAA8)",
+    "link": "https://cannria.ca",
+    "jobTitle": "Software Engineer",
+    "jobDescription": "Heed dives under cannabis regulations and offers a personalized shopping experience by deploying our Google powered A.I engine on conversational platforms.",
+    "jobDate": "Sept 2020 - Present"
+  },
+  {
+    "id": 1,
     "name": "Collegion",
     "logo": "collegion.svg",
     "background": "linear-gradient(to right, #78a0fa, #4b7ddc)",
     "link": "https://collegion.app",
-    "jobTitle": "Co-founder / Front end developer",
+    "jobTitle": "Co-founder",
     "jobDescription": "Working on providing college students with an easy way to communicate with fellow students, club members, and more. Create or work with designers to create user-friendly interfaces and graphics. Implementing designs using react-native.",
-    "jobDate": "Nov 2019 - Present"
-  },
-  {
-    "id": 1,
-    "name": "ResellAnalytics",
-    "logo": "resellanalytics.svg",
-    "background": "linear-gradient(to right, #3566ed, #3566ed)",
-    "link": "https://resellanalytics.io",
-    "jobTitle": "Front end developer",
-    "jobDescription": "Web app made to easily manage sneaker and clothing inventory, log recent sales, and check analytical data on past sales and spending habits. With a feature that web scrapes popular platforms such as Stockx and Goat to display accurate data on products.",
     "jobDate": "Nov 2019 - Present"
   },
   {

@@ -1,19 +1,15 @@
 [{
-    "title": "FleekFramework 3.0",
-    "description": "Developed Electron App for FleekFramework, a sneaker bot for EU websites.",
-    "link": "https://twitter.com/FleekFramework"
-  },
-  {
-    "title": "Authify Discord Dashboard",
-    "description": "System for automating Discord group or software company's sales.",
-    "link": "https://authify.app"
+    "title": "OptionsSwing",
+    "description": "Actively creating different tools and bots to aid members in the community.",
+    "link": "https://optionsswing.com"
   }, {
     "title": "BotBuddyAIO Tools",
     "description": "All-in-one tool for sneaker resellers, with proxy generator, Gmail activity generator, profile converter, and more.",
     "link": "https://botbuddy.xyz"
-  }, {
-    "title": "Soleus Autofill Extension",
-    "description": "Chrome extension made for Soleus members. Powered by Discord OAuth, granting members of Soleus with autofill for Supreme, Shopify checkouts, and Stripe checkouts.",
-    "link": "https://twitter.com/Soleus"
+  },
+  {
+    "title": "ResellAnalytics",
+    "description": "Web app made to easily manage sneaker and clothing inventory, log recent sales, and check analytical data on past sales and spending habits",
+    "link": "https://resellanalytics.io"
   }
 ]
