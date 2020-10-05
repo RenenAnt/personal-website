@@ -10,7 +10,7 @@ class Card extends Component {
       <div style={this.props.style} className="card">
 
         <div className="default">
-          <img className="workLogo" src={this.props.image}/>
+          <img alt={this.props.jobTitle} className="workLogo" src={this.props.image}/>
         </div>
 
         <div className="hover">

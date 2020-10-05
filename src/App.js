@@ -50,7 +50,7 @@ class App extends Component {
 
         <div className="nav">
           <div className="info-container">
-            <img className="logo" src={logo} />
+            <img alt="logo" className="logo" src={logo} />
             <h2 className="name">Roberto Infante</h2>
             <p className="title">developer</p>
           </div>
@@ -67,7 +67,7 @@ class App extends Component {
 
         <div className="mobile-nav">
           <div className="info-container">
-            <img className="logo" src={logo} />
+            <img alt="logo" className="logo" src={logo} />
             <h2 className="name">Roberto Infante</h2>
             <p className="title">developer</p>
           </div>
