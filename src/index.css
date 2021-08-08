@@ -1,13 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap'); */
 
-body {
-  background-color: #FFFFFF;
+@font-face {
+  font-family: 'schulbuchnord-fett';
+  src: url('fonts/schulbuchnord-fett.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  background-color: #e89061;
   margin: 0;
-  font-family: 'Open Sans';
+  font-family: 'schulbuchnord-fett';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: 'Open Sans';
+  font-family: 'schulbuchnord-fett';
 }

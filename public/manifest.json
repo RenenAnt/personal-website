@@ -1,6 +1,6 @@
 {
   "short_name": "Roberto Infante",
-  "name": "Roberto Infante Portfolio",
+  "name": "Roberto Infante",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#e89061",
+  "background_color": "#e89061"
 }
