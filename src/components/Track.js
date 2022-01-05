@@ -15,7 +15,7 @@ const CurrentlyPlaying = () => {
                     {lastFM.song.name.toUpperCase()}
                 </h2>
     
-                <img  src={lastFM.song.art}></img>    
+                <img alt="" src={lastFM.song.art}></img>    
             </>
         )
     )
