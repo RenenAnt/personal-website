@@ -1,21 +1,13 @@
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap'); */
-
-@font-face {
-  font-family: 'schulbuchnord-fett';
-  src: url('fonts/schulbuchnord-fett.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
 html, body {
   /* background-color: #e89061; */
-  background-color: rgba(99, 70, 136);
+  /* background-color: rgba(99, 70, 136); */
+  background-color: #141515;
   margin: 0;
-  font-family: 'schulbuchnord-fett';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif;
 }
 
 code {
-  font-family: 'schulbuchnord-fett';
-}
+  font-family: 'Inter', sans-serif;}
