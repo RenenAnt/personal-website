@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faInstagram, faDiscord, faGithub, faSpotify } from "@fortawesome/free-brands-svg-icons"
 
 const App = () => {
-  const lastFM =  useLastFM('roberto_in7', '1af211e21f18e73f8d9eb3b6d5119c24')
+  const lastFM =  useLastFM('Renen99', 'a319ac65f4744d7f14ebf8b94259cd93')
   console.log(lastFM);
   return (
     // Header w/ links      
@@ -13,7 +13,7 @@ const App = () => {
 
       {/* Name & Current playing song */}
 
-      <h1>Roberto Infante</h1>
+      <h1>Renen Antonacci</h1>
 
       {
           lastFM.status === 'playing' ? (
@@ -27,37 +27,37 @@ const App = () => {
       {/* Links */}
       <div className='links'> 
         <div>
-          <a target='_blank' href="https://twitter.com/liluzi">
+          <a target='_blank' href="https://twitter.com/veraged">
             <FontAwesomeIcon style={{marginRight:10}} icon={faTwitter}/>
-            liluzi
+            veraged
           </a>
         </div>
 
         <div>
-          <a target='_blank' href="https://open.spotify.com/user/roberto71979?si=4914ef12baaa472f">
+          <a target='_blank' href="https://open.spotify.com/user/flamesbaseball?si=0318ad5fe28c45c9">
           <FontAwesomeIcon style={{marginRight:10}} icon={faSpotify}/>
-            roberto71979
+            RenenA
           </a>
         </div>
 
         <div>
-          <a target='_blank' href="https://github.com/Infante">
+          <a target='_blank' href="https://github.com/Renen99">
             <FontAwesomeIcon style={{marginRight:10}} icon={faGithub}/>
-            Infante
+            Renen99
           </a>
         </div>
 
         <div>
-          <a target='_blank' href="https://instagram.com/jpegberto">
+          <a target='_blank' href="https://instagram.com/idkrenen">
             <FontAwesomeIcon style={{fontSize:18.5, marginBottom:-2.5, marginRight:10}} icon={faInstagram}/>
-            jpegberto
+            idkrenen
           </a>
         </div>
       
         <div>
           <a>
             <FontAwesomeIcon style={{fontSize:12.5, marginRight:10}} icon={faDiscord}/>
-            roberto#0001
+            Renen#0001
           </a>
         </div>
 
